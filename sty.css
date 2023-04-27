@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background-color: #52d7e9;
+    overflow: hidden;
+    padding-left: 35rem;
+}
+
+.heading{
+    text-align: center;
+    font-style: oblique;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid rgba(235, 17, 17, 0.267);
+    color: #950bb8;
+}
+
+.heading span{
+    color: rgb(189, 7, 107);
+}
+
+.title{
+    text-align: center;
+    font-style: oblique;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid rgba(236, 5, 5, 0.267);
+    color: #129b5b;
+}
+
+.title span{
+    color: rgb(189, 7, 107);
+}
+
+.head{
+    text-align: center;
+    font-style: oblique;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid rgba(238, 6, 6, 0.267);
+    color: #550620;
+}
+.head span{
+    color: rgb(189, 7, 107);
+}
+.pro{
+    text-align: center;
+    font-style: oblique;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .2rem solid rgba(12, 12, 12, 0.267);
+    color: #2c0783;
+}
+.pro span{
+    color: rgb(189, 7, 107);
+}
+header{
+    position:fixed;
+    font-style: oblique;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background:#af048a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: .5rem solid;
+}
+
+header .user .nm{
+    font-size:2rem;
+    color: #e2e607;
+}
+
+header .user .jb{
+    font-size:2rem;
+    color: #f1f514;
+}
+
+header .nv{
+    width: 100%;
+}
+header .nv ul{
+    list-style: none;
+    padding: 1rem ;
+}
+
+header .nv ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #246101;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+    text-decoration: none;  
+}
+header .nv ul li a:hover{
+    background-color:rgb(7, 72, 83);
+}
+
+.Details .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Details .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Details .Row .det h3{
+    font-size: 2rem;
+    font-style: italic;
+    color: rgb(194, 69, 11);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Details .Row .det h3 span{
+    color: #2c0694;
+    padding: 0. 5rem;
+}
+table,th,td{
+    border: 1px solid rgb(7, 7, 4);
+    border-collapse: collapse;
+}
+td{
+    color: rgb(194, 69, 11);
+    padding: 1rem;
+}
+th{
+    color: rgb(24, 7, 180);
+    padding: 1rem;
+}
+table{
+    text-align: center;
+    font-style: italic;
+    margin: 0 6rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+#lis li{
+    margin: 0 9rem;
+    color: rgb(14, 4, 95);
+    font-size: medium;
+    font-style: italic;
+    padding: .5rem 1rem;
+}
+.Project .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Project .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Project .Row .det h3{
+    font-size: 2rem;
+    font-style: italic;
+    color: rgb(10, 2, 121);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Project .Row .det h3 span{
+    color: rgb(252, 4, 25);
+    padding: 0. 5rem;
+}
