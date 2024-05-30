@@ -204,29 +204,4 @@ table{
     color: rgb(252, 4, 25);
     padding: 0. 5rem;
 }
-.Experience .Row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 3rem 0;
-}
 
-.Experience .Row .det{
-    flex: 1 1 48rem;
-    padding: 2rem 1rem;
-    padding-left: 8rem;
-}
-
-.Experience .Row .det h3{
-    font-size: 2rem;
-    font-style: italic;
-    color: rgb(10, 2, 121);
-    padding: 1rem 0;
-    font-weight: normal;
-}
-
-.Experience .Row .det h3 span{
-    color: rgb(252, 4, 25);
-    padding: 0. 5rem;
-}
